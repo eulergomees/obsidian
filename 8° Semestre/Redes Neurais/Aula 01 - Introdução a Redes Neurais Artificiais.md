@@ -12,6 +12,8 @@ Utilizando o aprendizado por reforço, sendo seu treinamento supervisionado ou n
 
 [MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44)
 
+Alguns usos das redes neurais artificiais: 
+
 **Processamento de áudio**
 Utilizando frequencia (que é possivel gerar imagens dessas frequencias), é utilizado para treinamento.
 
