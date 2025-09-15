@@ -4,6 +4,8 @@ Valor de intensidade de pixels.
 **Histograma:** mostra os niveis de intensidade de brilho de uma imagem.
 	Ex: contar quantos pixeis de intensidade 50 de uma imagem.
 
+![[histograma.png]]
+
 Com o histograma podemos distinguir diferentes objetos.
 Um baixo contraste, pouca diferença de intensidade é ruim para diferenciação de objetos em uma imagem.
 
@@ -12,7 +14,8 @@ Um baixo contraste, pouca diferença de intensidade é ruim para diferenciação
 Metodos:
 - Contrast stretching function: método de aprimoramento de imagem que tenta melhorar uma imagem ampliando o intervalo de valores de intensidade;
 - Thresholding function: transforma a imagem RGB em uma imagem binaria (preto e branco);
-- Negative function: inverte o histograma da imagem(usadas em campo médico como mamografia).
+- Negative function: inverte o histograma da imagem (usadas em campo médico como mamografia).
+Cada um desses metodos possui uma função matematica correspondente.
 
 **Equalização de histograma**
 
@@ -20,5 +23,5 @@ Metodos:
 
 Função de equalização (transformada de intensidade):
 $$
-Sk = T(rk) = (L - 1)\sum_{j=0}^k Pr(rj)
+Sk = T(rk) = (L - 1)\sum_{j=0}^k pr(rj)
 $$
