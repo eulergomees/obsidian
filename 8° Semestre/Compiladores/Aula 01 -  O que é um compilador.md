@@ -27,7 +27,14 @@ Em 1967, a Programação Orientada a Objeto foi inicialmente introduzida na ling
 
 **Fundamentos da linguagem de programação**
 
-Estático: instancia um único objeto para aquela classe.
+Estático: ocorre durante a instanciação do código.
 	Ex: *public static int* x
 	Torna x uma variável de classe e diz que existe apenas uma única cópia de x.
-Dinâmico:
+Dinâmico: ocorre durante a execução do codigo.
+	Ex: val x
+	Torna x uma variável mutavel em Kotlin.
+	
+Escopo: corpo do programa, determina onde cada variavel e ação pode ser chamada e executada, é delimitado por diferentes formas como chaves para Java ou identação para Python.
+Linguagens modernas tem controle explicito de escopo, como public, private e protected.
+
+
