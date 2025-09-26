@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8° Semestre/Compiladores/Aula 02 - Análise léxica.md",
+                "file": "8° Semestre/Redes Neurais/Aula 03 - Perceptron.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 02 - Análise léxica"
+              "title": "Aula 03 - Perceptron"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -160,31 +160,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "4b9c621c8be542cb",
   "lastOpenFiles": [
-    "8° Semestre/Compiladores/Aula 01 -  O que é um compilador.md",
-    "8° Semestre/Compiladores/Aula 02 - Análise léxica.md",
     "8° Semestre/Redes Neurais/Aula 02 - Neurônio Artificial.md",
+    "8° Semestre/Redes Neurais/Aula 03 - Perceptron.md",
+    "8° Semestre/Processamento Digital de Imagens/Aula 06 - Filtragem Espacial.md",
+    "8° Semestre/Processamento Digital de Imagens/Aula 04 - Transformações de Intensidade.md",
+    "README.md",
+    "8° Semestre/Compiladores/Aula 02 - Análise léxica.md",
+    "8° Semestre/Compiladores/Aula 01 -  O que é um compilador.md",
     "8° Semestre/Redes Neurais/Imagens/neuronio.png",
     "8° Semestre/Redes Neurais/Imagens",
     "8° Semestre/Redes Neurais/Aula 01 - Introdução a Redes Neurais Artificiais.md",
-    "8° Semestre/Processamento Digital de Imagens/Aula 04 - Transformações de Intensidade.md",
     "8° Semestre/Processamento Digital de Imagens/Aula 03 - Fundamentos de imagem II.md",
     "8° Semestre/Processamento Digital de Imagens/Aula 02 - Fundamentos de Imagem I.md",
     "8° Semestre/Processamento Digital de Imagens/Aula 01 - Introdução.md",
     "8° Semestre/Processamento Digital de Imagens/Imagens/histograma.png",
     "8° Semestre/Processamento Digital de Imagens/Imagens/viz-8.png",
     "8° Semestre/Processamento Digital de Imagens/Imagens/viz-4.png",
-    "8° Semestre/Processamento Digital de Imagens/Imagens",
-    "README.md"
+    "8° Semestre/Processamento Digital de Imagens/Imagens"
   ]
 }

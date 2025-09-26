@@ -4,8 +4,7 @@ Etapas para o treinamento de uma rede neural artificial:
 	- Verficação de integriade: remoção de dados problematicos/faltantes e interpolação (criação de dados artificiais utilizando técnicas especificas).
 	- Indentificação de pontos atípicos(outlier): algum(ns) possível(is) dado(s) coletado(s) de forma errada ou com problema, que distorce os dados da amostra. Intervalo Entre Quartis (IQR) é a técnica utilizada para remover esses pontos atípicos, depois usado a interpolação para "cobrir" o espaço gerado.
 	- Scaler (colocar em escala): Colocar os dados em uma escala de 0 à 1. Transforma todos os valores do conjunto de dados para dentro da escala.
-	Formula da escala:
-		$$
+	Formula da escala:$$
 \frac{Xi - Xmin}{Xmax - Xmin}
 $$
 - Divisão de conjuntos: com 60% do conjunto de amostras são entregues ao modelo para ele inferir o plano de separação (dados de treino), outros 30% são usados para validação do treinamento da rede (dados de validação), os 10% restantes são usados para teste do modelo (dados de teste cego).
@@ -35,4 +34,21 @@ Legenda:
 - u = Saída da rede
 
 **A rede sempre atualiza somente os pesos!!!**
+
+## Funções de ativação
+
+### Parcialmente diferenciaveis:
+Possuem pontos onde as derivadas se primeira ordem não existem.
+- Degrau
+- Degrau bipolar
+- Rampa simétrica
+- ReLU (Rectified Linear Uniti)
+
+### Totalmente diferenciáveis:
+Derivadas conhecidas em todos os pontos da função.
+- Sigmoides
+	- Logística
+	- Tangente hiperbólica
+- Gaussiana
+
 
