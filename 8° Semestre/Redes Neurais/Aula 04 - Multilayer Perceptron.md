@@ -35,3 +35,10 @@ Em termos de EQM (Erro Quadratico Médio):
 $EQM=\frac{1}{P}\sum^{p}_{k=1}e(k)$
 
 # Fase Backward (backpropagation)
+
+Fase de volta da rede neural, onde o erro obtido é então usado para ajustar os pesos de cada aresta.
+
+**Nosso interesse é calcular o gradiente dos erros**
+
+## Primeira volta (arestas de saída)
+
